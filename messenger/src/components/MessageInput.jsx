@@ -13,14 +13,14 @@ const MessageInput = ({ onSend }) => {
     const newMessage = {
       id: Date.now(),
       name: message,
-      email: "you@example.com",
+      email: "utsav@gmail.com",
       status: "sent",
       timestamp: new Date().toISOString(),
     };
 
     dispatch(addMessage(newMessage));
     setMessage("");
-    onSend(); 
+    onSend();
   };
 
   return (
